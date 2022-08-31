@@ -12,9 +12,9 @@
 
 A personal portfolio built with:
 
--React.JS
--Next.JS
--Tailwind CSS
+- React.JS
+- Next.JS
+- Tailwind CSS
 
 ![657b65a9895d94e72333f54db95969fb](https://user-images.githubusercontent.com/107082980/187772502-8e8fecb8-8955-4ae6-b8bb-6e91ee3ff147.png)
 
