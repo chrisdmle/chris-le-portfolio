@@ -6,6 +6,7 @@ import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
+import Footer from "../components/Footer"
 // Data
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
@@ -23,13 +24,13 @@ const Resume = () => {
   }, []);
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
+      {/* {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
           <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
           </Button>
         </div>
-      )}
+      )} */}
 
       <Cursor />
       <div className="container mx-auto cursor-none mb-10">
@@ -123,6 +124,7 @@ const Resume = () => {
           </div>
         )}
       </div>
+      <Footer />
     </>
   );
 };
