@@ -1,79 +1,50 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+# My Portfolio
 
-### Live - https://react-portfolio-template.netlify.app/
+## Table of Contents
 
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
+- [Description](#description)
+- [Installation and Usage](#installationandusage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Questions](#questions)
 
-### Tutorials
+## Description:
 
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
+A personal portfolio built with:
 
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+- React.JS
+- Next.JS
+- Tailwind CSS
 
-### Features - 
+![657b65a9895d94e72333f54db95969fb](https://user-images.githubusercontent.com/107082980/187772502-8e8fecb8-8955-4ae6-b8bb-6e91ee3ff147.png)
 
-- Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
-- Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
-- Dark Mode
+## Installation and Usage:
+Here is a link to a deployed version of the application: https://chris-le.netlify.app/
 
+To run this project locally, install it and then by using npm, install any necessary packages:
 
-### Sections
+```
+npm install
+```
 
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
+Start up the application:
 
+```
+npm start
+```
 
-### How To Use
+## License
 
-- Clone this repo
-- run `yarn`
-- `yarn dev`
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
+This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
 
+## Contribution
 
-### How To Deploy - 
+Thank you for your interest in contributing; however, I will not currently be accepting contributions from third parties at this time.
 
-- There are many ways to Deploy this repo.
-- here we are gonna use netlify
-- Login into netlify with github
-- after login select the forked repo or the repo you want to deploy
-- after selecting netlify will automatially deploy your website.
+## Questions?
 
-Quickes way to deploy this repo - 
+Please feel free to contact me if you need any further information:
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
-
-
-### How To Contribute - 
-
-I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
-
-
-### Tech Stack Used - 
-- Next.js
-- TailwindCSS
-
-
-### Thanks
-
-If you liked this portfolio template, don't forget to give it a ⭐.
-
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
-
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
-
-
-
-
-
+- [Email](mailto:chrisdmle@gmail.com)
+- [Github](https://github.com/chrisdmle)
