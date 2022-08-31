@@ -8,9 +8,6 @@
   font-family: "Hind";
 }
 
-html{
-  @apply cursor-none
-}
 
 body {
   @apply dark:bg-black dark:text-white;
@@ -21,14 +18,14 @@ body {
   pointer-events: none;
   z-index: 100;
   top: -30px;
-  height: 40px;
+  height: 50px;
   width: 100vw;
-  opacity: 0.5;
+  opacity: 1;
   filter: blur(40px);
   background: radial-gradient(
     circle,
     rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+    rgba(116, 64, 236, 0.8) 100%
   );
 }
 .gradient-circle-bottom {
@@ -36,14 +33,14 @@ body {
   pointer-events: none;
   z-index: 100;
   bottom: -20px;
-  height: 30px;
+  height: 50px;
   width: 100vw;
-  opacity: 0.5;
+  opacity: 1;
   filter: blur(40px);
   background: radial-gradient(
     circle,
     rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+    rgba(116, 64, 236, 0.8) 100%
   );
 }
 
