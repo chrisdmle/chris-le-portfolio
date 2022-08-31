@@ -55,13 +55,13 @@ export default function Home() {
         <title>{data.name}</title>
       </Head>
       {/* This button should not go into production */}
-      {process.env.NODE_ENV === "development" && (
+      {/* {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-5 right-5">
           <Link href="/edit">
             <Button type="primary">Edit Data</Button>
           </Link>
         </div>
-      )}
+      )} */}
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
@@ -106,7 +106,7 @@ export default function Home() {
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
-                img={project.imageSrc}
+                img={project.imageSrc}  
                 name={project.title}
                 description={project.description}
                 onClick={() => window.open(project.url)}
